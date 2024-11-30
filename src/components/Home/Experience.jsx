@@ -18,8 +18,14 @@ import Vue from '../../assets/experience/vue.svg'
 import Javascript from '../../assets/experience/javascript.svg'
 import Typescript from '../../assets/experience/typescript.svg'
 import Figma from '../../assets/experience/figma.svg'
+import Nuxt from '../../assets/experience/nuxt.svg'
+import Docker from '../../assets/experience/docker.svg'
 
 const icons = [
+    {
+        logo: Nuxt,
+        tooltip: 'Nuxt',
+    },
     {
         logo: Vue,
         tooltip: 'Vue',
@@ -89,6 +95,10 @@ const icons = [
         tooltip: 'Django',
     },
     {
+        logo: Docker,
+        tooltip: 'Docker',
+    },
+    {
         logo: S3,
         tooltip: 'AWS S3',
     },
@@ -103,14 +113,14 @@ const Experience = () => {
         return (
             <div className='has-tooltip flex justify-center' key={icon.tooltip}>
                 <span className='tooltip -mt-12 bg-primary rounded-md p-1 px-2 justify-center'>{icon.tooltip}</span>
-                <img className='hover:animate-zooming rounded-lg h-20' src={icon.logo} alt={icon.tooltip + ' logo'} />
+                <img className='hover:animate-zooming rounded-lg h-20 max-w-[5rem]' src={icon.logo} alt={icon.tooltip + ' logo'} />
             </div>
         )
     })
 
     return (
         <div className='p-4 bg-secondary'>
-            <div className='max-w-[1200px] m-auto'>
+            <div className='max-w-[1300px] m-auto'>
                 <h2 className='text-center font-bold text-2xl pb-4'>Experience</h2>
                 <div className='py-8 flex justify-around flex-wrap gap-10'>
                     {iconList}
