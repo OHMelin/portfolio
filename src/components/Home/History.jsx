@@ -57,9 +57,16 @@ const histories = [
     color: 'error',
   },
   {
+    title: 'Student Developer',
+    desc: 'WEXO',
+    date: 'Mar. 2025 - Now',
+    icon: FaBriefcase,
+    color: 'secondary',
+  },
+  {
     title: 'Student Assistant, IT Development',
     desc: 'Coolshop',
-    date: 'Sep. 2024 - Now',
+    date: 'Sep. 2024 - Feb. 2025',
     icon: FaBriefcase,
     color: 'secondary',
   },
