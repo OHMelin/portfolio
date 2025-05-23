@@ -6,12 +6,22 @@ import {
     FaDumbbell,
     FaMusic,
     FaGlassCheers,
+    FaPlane,
+    FaGuitar,
 } from 'react-icons/fa'
 
 const icons = [
     {
         logo: FaBookReader,
         tooltip: 'Reading',
+    },
+    {
+        logo: FaPlane,
+        tooltip: 'Traveling',
+    },
+    {
+        logo: FaGuitar,
+        tooltip: 'Guitar',
     },
     {
         logo: FaCode,
@@ -23,7 +33,7 @@ const icons = [
     },
     {
         logo: FaCarrot,
-        tooltip: 'Eating',
+        tooltip: 'Cooking',
     },
     {
         logo: FaMusic,

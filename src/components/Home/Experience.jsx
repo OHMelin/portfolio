@@ -17,6 +17,7 @@ import Cloudfront from '../../assets/experience/aws_cloudfront.svg'
 import Vue from '../../assets/experience/vue.svg'
 import Javascript from '../../assets/experience/javascript.svg'
 import Typescript from '../../assets/experience/typescript.svg'
+import PHP from '../../assets/experience/php.svg'
 import Figma from '../../assets/experience/figma.svg'
 import Nuxt from '../../assets/experience/nuxt.svg'
 import Docker from '../../assets/experience/docker.svg'
@@ -73,6 +74,10 @@ const icons = [
     {
         logo: Typescript,
         tooltip: 'TypeScript',
+    },
+    {
+        logo: PHP,
+        tooltip: 'PHP',
     },
     {
         logo: Java,
