@@ -7,7 +7,7 @@ import Mui from '../../assets/experience/mui.svg'
 const Footer = () => {
   return (
     <div className='pt-32 p-4 flex justify-center'>
-      <a className='grayscale has-tooltip w-fit flex justify-center' href='https://github.com/OHMelin/Portfolio' target='_blank' rel='noreferrer'>
+      <a className='grayscale has-tooltip w-fit flex justify-center' href='https://github.com/OHMelin/portfolio' target='_blank' rel='noreferrer'>
         <span className='tooltip -mt-10 bg-secondary rounded-md p-1 px-2 justify-center'>Click to visit repository</span>
         Made with 
         <img className='inline-block ml-2' src={Heart} alt="" width={20} />,
