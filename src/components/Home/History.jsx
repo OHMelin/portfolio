@@ -22,6 +22,13 @@ const histories = [
   //  icon: FaGithub,
   //},
   {
+    title: 'Bookshelf',
+    desc: 'Instagram for books',
+    date: 'Sep. 2025 - Now',
+    icon: FaDiceD6,
+    color: 'primary',
+  },
+  {
     title: 'Student Developer',
     desc: 'WEXO',
     date: 'Mar. 2025 - Now',
