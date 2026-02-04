@@ -15,12 +15,6 @@ import {
 } from 'react-icons/fa'
 
 const histories = [
-  //{
-  //  title: 'Your project?',
-  //  desc: 'Contact me',
-  //  date: 'Today - Acquisition',
-  //  icon: FaGithub,
-  //},
   {
     title: 'Bookshelf',
     desc: 'Instagram for books',
@@ -29,25 +23,11 @@ const histories = [
     color: 'primary',
   },
   {
-    title: 'Student Developer',
-    desc: 'WEXO',
-    date: 'Mar. 2025 - Now',
+    title: 'Valoks',
+    desc: 'Co-Founder',
+    date: 'Apr. 2023 - Now',
     icon: FaBriefcase,
     color: 'secondary',
-  },
-  {
-    title: 'Web development',
-    desc: 'UCN',
-    date: 'Sep. 2024 - Now',
-    icon: FaBook,
-    color: 'error',
-  },
-  {
-    title: 'Valoks',
-    desc: 'Software company',
-    date: 'Apr. 2023 - Now',
-    icon: FaDiceD6,
-    color: 'primary',
   },
   {
     title: 'Touch Grass Store',
@@ -57,11 +37,25 @@ const histories = [
     color: 'primary',
   },
   {
-    title: 'AFK Console Client',
-    desc: 'Minecraft AFK Client',
+    title: 'MinecraftAFK',
+    desc: 'AFK program for Minecraft players',
     date: 'Aug. 2022 - Now',
     icon: FaDiceD6,
     color: 'primary',
+  },
+  {
+    title: 'Student Developer',
+    desc: 'WEXO',
+    date: 'Mar. 2025 - Feb. 2026',
+    icon: FaBriefcase,
+    color: 'secondary',
+  },
+  {
+    title: 'Web development',
+    desc: 'UCN',
+    date: 'Sep. 2024 - Feb. 2026',
+    icon: FaBook,
+    color: 'error',
   },
   {
     title: 'Vue Boilerplate',
