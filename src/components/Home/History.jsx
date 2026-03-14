@@ -12,9 +12,17 @@ import {
   FaBook,
   FaBaby,
   FaBriefcase,
+  FaHeart,
 } from 'react-icons/fa'
 
 const histories = [
+  {
+    title: 'TotalKPI',
+    desc: 'KPI dashboard',
+    date: 'Mar. 2026 - Now',
+    icon: FaDiceD6,
+    color: 'primary',
+  },
   {
     title: 'Bookshelf',
     desc: 'Instagram for books',
@@ -44,6 +52,13 @@ const histories = [
     color: 'primary',
   },
   {
+    title: 'Volunteer Coding Teacher',
+    desc: 'Coding Pirates',
+    date: 'Oct. 2025 - Feb. 2026',
+    icon: FaHeart,
+    color: 'success',
+  },
+  {
     title: 'Student Developer',
     desc: 'WEXO',
     date: 'Mar. 2025 - Feb. 2026',
@@ -51,7 +66,7 @@ const histories = [
     color: 'secondary',
   },
   {
-    title: 'Web development',
+    title: 'Web Development',
     desc: 'UCN',
     date: 'Sep. 2024 - Feb. 2026',
     icon: FaBook,
@@ -93,11 +108,11 @@ const histories = [
     color: 'secondary',
   },
   {
-    title: 'Tutor',
+    title: 'Volunteer Tutor',
     desc: 'UCN',
     date: 'Aug. 2022 - Nov. 2022',
-    icon: FaBook,
-    color: 'error',
+    icon: FaHeart,
+    color: 'success',
   },
   {
     title: 'Computer Science',
@@ -163,7 +178,7 @@ const histories = [
     color: 'error',
   },
   {
-    title: 'Hello world',
+    title: 'Hello World',
     desc: 'I was born',
     date: 'August 8th, 2001',
     icon: FaBaby,
@@ -205,7 +220,7 @@ const History = () => {
   })
 
   return (
-    <div className='py-32 p-4 max-w-[1440px] m-auto'>
+    <div className='py-32 p-4 max-w-[1080px] m-auto'>
       <h2 className='text-center font-bold text-2xl pb-4'>Timeline</h2>
       <Timeline position="right">
         {historyList}      

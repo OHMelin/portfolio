@@ -5,6 +5,7 @@ import GraveOfAnubis from '../../assets/projects/GraveOfAnubis.png'
 import Valoks from '../../assets/projects/Valoks.png'
 import TouchGrass from '../../assets/projects/TouchGrass.png'
 import Bookshelf from '../../assets/projects/Bookshelf.png'
+import TotalKPI from '../../assets/projects/TotalKPI.png'
 
 const projects = [
     {
@@ -55,6 +56,14 @@ const projects = [
         tech: [],
         link: 'https://bookshelf.im?utm_source=ohmelin',
     },
+    {
+        logo: TotalKPI,
+        title: 'TotalKPI',
+        subtitle: 'KPI dashboard',
+        desc: 'View all your KPIs in one dashboard. Overlay graphs and see correlations.',
+        tech: [],
+        link: 'https://totalkpi.com?utm_source=ohmelin',
+    }
 ];
 
 const Projects = () => {
@@ -68,7 +77,8 @@ const Projects = () => {
         ${i === 2 ? "bg-[#54342d] border-[#a37c5f]" : ""}
         ${i === 3 ? "bg-[#2c4a9a] border-[#009fe3]" : ""}
         ${i === 4 ? "bg-[#326253] border-[#97ffd0]" : ""}
-        ${i === 5 ? "bg-[#dbeafe] border-[#0f172b] text-[#000000]" : ""}`} key={project.title}>
+        ${i === 5 ? "bg-[#5a589a] border-[#a797ff]" : ""}
+        ${i === 6 ? "bg-[#dbeafe] border-[#0f172b] text-[#000000]" : ""}`} key={project.title}>
         <div className='flex flex-row items-center'>
           <img className="w-[25%] inline-block mr-4" src={project.logo} alt="" />
           <div className=''>
@@ -93,7 +103,7 @@ const Projects = () => {
   });
 
   return (
-    <div className='py-32 p-4 max-w-[1440px] m-auto'>
+    <div className='py-32 p-4 max-w-[1080px] m-auto'>
         <h2 className='text-2xl font-bold text-center mb-8'>Projects</h2>
         <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center gap-4'>{projectList}</div>
     </div>

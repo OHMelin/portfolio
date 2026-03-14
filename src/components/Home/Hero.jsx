@@ -9,17 +9,17 @@ import {
 
 const Hero = () => {
     return (
-        <div className='py-32 p-4 max-w-[1440px] m-auto'>
+        <div className='py-32 p-4 max-w-[1080px] m-auto'>
             <div className='grid lg:grid-cols-2 md:grid-cols-1'>
                 <div className='flex flex-col'>
                     <h1 className='text-6xl font-bold font-handwriting'>Oliver Melin</h1>
-                    <p className='pt-4'>Howdy! I'm Oliver, a student and indie hacker.</p>
+                    <p className='pt-4'>Howdy! I'm Oliver, a professional human.</p>
                     <div className='flex align-middle pt-4'>
                         <FaMapMarkerAlt className='mr-2 mt-1'></FaMapMarkerAlt>
                         <p>Denmark</p>
                     </div>
-                    <p className='pt-16'>I find joy in working on my personal projects in my spare time. Apart from that, I thrive with friends and physical activities.</p>
-                    <p className='py-4'>My primary focus and passion lie in web development. I'm striving to evolve into a proficient full-stack developer, blending creativity and programming.</p>
+                    <p className='pt-16'>Please check out my projects! I'm always working on something new and would love to hear your thoughts.</p>
+                    <p className='py-4'>If you have any questions, ideas, suggestions or just want to say hello, feel free to reach out!</p>
                 </div>
                 <div className='flex lg:justify-end h-[100%] py-8'>
                     <img className='animate-floating m-auto lg:ml-0 lg:mr-0 max-h-[400px] max-w-[400px]' src={Meditate} alt="Portrait" />

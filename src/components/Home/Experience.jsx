@@ -125,7 +125,7 @@ const Experience = () => {
 
     return (
         <div className='p-4 bg-secondary'>
-            <div className='max-w-[1300px] m-auto'>
+            <div className='m-auto'>
                 <h2 className='text-center font-bold text-2xl pb-4'>Experience</h2>
                 <div className='py-8 flex justify-around flex-wrap gap-10'>
                     {iconList}
